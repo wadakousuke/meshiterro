@@ -5,5 +5,5 @@ Rails.application.routes.draw do
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 
   resources :post_images, only: [:new, :index, :show, :create, :destroy]
-  resources :users, only: [:edit, :show]
+  resources :users, only: [:edit, :show, :update]
 end
